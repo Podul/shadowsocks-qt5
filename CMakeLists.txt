@@ -11,6 +11,8 @@ set(CMAKE_AUTORCC ON)
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+set(CMAKE_PREFIX_PATH /home/podul/Qt5.14.0/5.14.0/gcc_64)
+
 
 find_package(Qt5Core)
 find_package(Qt5Gui)

@@ -54,3 +54,5 @@ if (UNIX)
     install(FILES shadowsocks-qt5.desktop DESTINATION share/applications)
     install(FILES icons/shadowsocks-qt5.png DESTINATION share/icons/hicolor/512x512/apps)
 endif()
+
+include_directories("/usr/include/QtShadowsocks")
